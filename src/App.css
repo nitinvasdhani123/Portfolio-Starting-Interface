@@ -1,0 +1,43 @@
+#image 
+{
+    height: 100vh;
+    background-image: url(./Videos/gif4.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image h1
+{
+    color: white;
+    font-size: 3.5rem;
+    backdrop-filter: blur(3rem);
+}
+
+
+@media only screen and (max-width: 855px)
+{
+    #image h1
+    {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 490px)
+{
+    #image h1
+    {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 245px)
+{
+    #image h1
+    {
+        font-size: 0.5rem;
+    }
+}
